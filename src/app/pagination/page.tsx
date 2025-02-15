@@ -98,8 +98,8 @@ const Pagination = () => {
             key={paginationInfo.startPage + i}
             onClick={() => handlePageChange(paginationInfo.startPage + i)}
             className={`
-              px-2 py-1 rounded
-              ${page === paginationInfo.startPage + i ? 'bg-blue-500 text-white' : 'bg-gray-200'}
+              px-2 py-1 rounded text-black w-10 h-10
+              ${page === paginationInfo.startPage + i ? 'bg-blue-500' : 'bg-gray-200'}
             `}
           >
             {paginationInfo.startPage + i}
